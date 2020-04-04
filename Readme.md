@@ -6,8 +6,3 @@ conda install nodejs
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter labextension install jupyterlab-plotly
 jupyter labextension install plotlywidget
-
-# TimeSynth:
-git clone https://github.com/TimeSynth/TimeSynth.git
-cd TimeSynth
-python setup.py install
