@@ -19,7 +19,7 @@ def unify_path(path) -> Path:
     return path.resolve()
 
 
-# Path to the raw data (ftp://ftp.hzg.de/outgoing/swagner/MyChallengePaleo.tar.gz)
+# Path to the raw data
 path_data = unify_path(os.environ.get('DATA_PATH', '../../data'))
 
 # Path to a folder where we store intermediate results
